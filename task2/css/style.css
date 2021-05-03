@@ -1,0 +1,22 @@
+p
+{ font-size: 30px;
+    color: #404240;
+    letter-spacing: 20px;
+    word-spacing: 4px;
+
+}
+ins + span {
+    text-decoration: overline;
+}
+.clbold
+{
+    font-weight: 900;
+}
+ins del {
+    text-shadow: 2px 2px 2px orange;
+}
+
+ins.clbold  del {
+    font-size: 35px;
+}
+
