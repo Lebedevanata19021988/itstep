@@ -48,5 +48,14 @@ span.pink {
 span.pink:hover{
     color: rgba(221, 66, 179, 0.5);
 }
+ins.clear del{
+    color: rgba(0, 0, 0, 0);
+    text-shadow: 0px 0px 0px rgba(0, 0, 0, 0)
+}
+ins.clear del:hover{
+    color: black;
+    text-shadow: 2px 2px 2px orange;
+}
+
 
 
