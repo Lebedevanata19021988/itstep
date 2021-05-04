@@ -13,6 +13,7 @@ font-style: normal;}
 .blue
 { color: rgb(19, 82, 177);}
 
+<<<<<<< HEAD
 .yellow
 {
     color: rgb(253, 250, 31);
@@ -34,6 +35,8 @@ font-style: normal;}
 pre
 {
     background-color: black;
+=======
+>>>>>>> a7954f084e862ef244832673038bd891fd7a1d56
 }
 .white
 {color: white;}
