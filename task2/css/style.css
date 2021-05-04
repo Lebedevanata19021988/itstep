@@ -19,4 +19,34 @@ ins del {
 ins.clbold  del {
     font-size: 35px;
 }
+.pink
+{
+    color: rgba(221, 66, 179, 0.5);
+}
+span.clbold 
+{
+    color: rgba(221, 66, 179, 0.5)  
+}
+.clear
+{
+    color: rgba(0, 0, 0, 0)}
+.clear:hover
+{
+    color: black;
+}
+ins.pink
+{color: rgba(0, 0, 0, 0);}
+ins.pink:hover{
+    color: rgba(221, 66, 179, 0.5);
+}
+
+.pink8{ color:
+    rgba(221, 66, 179, 0.5)
+}
+span.pink {
+    color: rgba(0, 0, 0, 0);}
+span.pink:hover{
+    color: rgba(221, 66, 179, 0.5);
+}
+
 
