@@ -1,0 +1,14 @@
+table{ border-spacing: 0px;
+border-collapse: collapse;
+}
+th, td{border: 2px solid #fff;
+}
+th{font-size: bold; background: rgb(17, 111, 194); color: #fff; text-align: center; border-bottom: 4px solid #fff; height: 30px;}
+td:nth-child(1){ text-align: center; width: 50px; height: 30px;} 
+td:nth-child(2){text-align: left; width: 200px; height: 30px;}
+td:nth-child(3){text-align: center; width: 100px; height: 30px;}
+td:nth-child(4){text-align: center; width: 100px; height: 30px;}
+td:nth-child(5){text-align: center; width: 100px; height: 30px;}
+tr:nth-child(2n+2){background: rgb(26, 189, 181);}
+tr:nth-child(2n+3){background: lightskyblue;}
+th:nth-child(2){text-align: left;}

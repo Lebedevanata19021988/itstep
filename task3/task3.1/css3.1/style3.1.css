@@ -1,0 +1,16 @@
+table{
+    border-spacing: 0px;
+    border-collapse: collapse;
+}
+td{
+    border: 3px solid #000;
+    width: 100px;
+    height: 100px;
+    background: brown;
+    color: #fff;
+    font-size: 30px;
+}
+
+    
+
+
