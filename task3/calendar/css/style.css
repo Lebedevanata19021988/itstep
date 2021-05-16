@@ -1,12 +1,15 @@
 table{border-collapse: collapse; border-spacing: 0px;}
-td{border: 1px solid #fff; width: 100px; height: 100px; font-size: 20px; text-align: right; vertical-align: top; font-size: bold; color: #fff; font-style: italic;}
+td{border: 1px solid #fff; width: 100px; height: 100px; font-size: 30px; text-align: 
+    right; vertical-align: top; font-weight: 500; color: #fff; font-style: italic;}
 caption{font-size: 30px;}
 .red{color: red;}
 tr:nth-child(5) td:nth-child(5) {background-image: url(../img/etGKo3bWMnk.jpg); background-size: cover;}
 tr:nth-child(4) td:nth-child(7) {background-image: url(../img/1402.jpg); background-size: cover;}
 tr:nth-child(6) td:nth-child(2) {background-image: url(../img/2302.jpg); background-size: cover;}
 
-tr:nth-child(n+3) {background: rgb(138, 135, 135);}
-tr:nth-child(7) {background: rgb(206, 206, 206);}
-tr:nth-child(2) {background: rgb(206, 206, 206);}
+tr:nth-child(n+3) {background: rgb(161, 161, 161);}
+tr:nth-child(7) {background: rgb(218, 216, 216);}
+tr:nth-child(2) {background: rgb(218, 216, 216);}
+.black {color: #000; font-size: 20px; text-align: center; font-weight: bold; vertical-align: text-bottom;}
+
 

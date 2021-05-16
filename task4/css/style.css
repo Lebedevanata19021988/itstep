@@ -1,0 +1,46 @@
+.ul {list-style-image: url(../img/ic_done_128_28244.png);
+list-style-position: inside;}
+h1{font-size: 24pt;font-family: 'Reggae_One'; padding: 0px 15px 0px; text-shadow: 2px 2px rgb(241, 152, 152);}
+h2{ font-family: 18pt;font-family: 'Reggae_One'; font-weight: bold;}
+
+@font-face {src: url(../font/Reggae_One/ReggaeOne-Regular.ttf); font-family: 'Reggae_One';}
+p, li, table {font-size: 14pt; text-align: justify; font-family: Georgia, Times, serif; margin: 0px 15px 0px; direction: ltr;}
+p{text-indent: 20px; letter-spacing: normal; word-spacing: normal; hyphens: auto;}
+.brendan {float: left; margin: 5px 5px 5px 5px; text-align: center; border-width: 2px; border-style: dotted; border-color: blue;}
+.netscape { float: right; margin: 5px 5px 5px 5px; box-shadow: 2px 2px 2px 2px #7e837e;}
+.jv {float: left; margin: 5px 5px 5px 5px; padding-right: 2px; border-radius: 70px; }
+table{border-collapse: collapse; border-spacing: 0;}
+thead td:nth-child(n+1){color: #fff; border: 0px solid #fff; background-color: #4f81bd; height: 30px; }
+
+
+td:nth-child(1){text-align: center; vertical-align: middle; width: 200px; height: 70px; }
+tbody td:nth-child(1){text-align: center; vertical-align: middle; width: 200px; height: 70px; border-right: 1px solid #95b3d7; }
+tbody td:nth-child(2){text-align: left; vertical-align: middle; width: 500px; height: 70px; border-right: 1px solid #95b3d7;}
+tbody td:nth-child(3){text-align: center; vertical-align: middle;  width: 300px; height: 70px; border-right: 1px solid #95b3d7;}
+tbody td:nth-child(4){text-align: right; vertical-align: middle;  width: 400px; height: 70px; border-right: 1px solid #95b3d7;}
+tbody tr:nth-child(2n+1){background: #dbe5f0; border: 0px solid #fff;}
+
+tbody tr:nth-child(n+1) {border-bottom: 1px solid #95b3d7;}
+
+
+thead td:nth-child(4){ text-align: right;}
+
+tr:nth-child(2n+1) td:nth-child(3) {border: 0px solid #fff; }
+tr:nth-child(2n+1) td:nth-child(2) {border: 0px solid #fff; }
+tr:nth-child(7) td:nth-child(n+1) {background: #4f81bd; height: 30px;}
+tr td { padding: 5px 5px;}
+.blue {color: blue;}
+.grey {color: gray;}
+.aqua {color: aqua;}
+.red {color: brown; text-decoration: underline;}
+.black {background: black;margin: 0px 15px 0px; }
+.white {background: #fff; color: black; font-size: 14pt; text-align: left;  font-family: Georgia, Times, serif;  }
+caption{caption-side: top; text-transform: uppercase;}
+body {background-image: url(../img/fon1.jpg); background-size: cover;}
+
+
+
+
+
+
+  

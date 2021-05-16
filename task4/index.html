@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/normalize.css/normalize.css">
+    <link rel="stylesheet" href="./font/Reggae_One/ReggaeOne-Regular.ttf">
+</head>
+<body>
+    <p><a id="top"></a></p>
+    <h1>JavaScript</h1>
+    <ol>
+        <li><a href="#menu1">История создания</a></li>
+        <li><a href="#menu2">Краткий обзор языка</a></li>
+        <li><a href="#menu3">Серверные приложения</a></li>
+        <li><a href="#menu4">Примеры кода</a></li>  
+    </ol>
+    <hr>
+    <p><a id="top"></a></p>
+    <h2><p id="menu1">История создания</p></h2>
+    <p> <img src="./img/brendan.jpg" alt="Брендан Эйх" class="brendan" width="200" height="200"> Перед <em>Бренданом Эйхом</em>, нанятым в 
+        компанию <em>Netscape</em> 4 апреля 1995 года была поставлена задача внедрить язык программирования Scheme или что-то похожее в браузер Netscape. 
+    Поскольку требования были размыты, Эйха перевели в группу, ответственную за серверные продукты, где он проработал месяц, занимаясь улучшением протокола HTTP. 
+    В мае разработчик был переброшен обратно, в команду, занимающуюся клиентской частью (браузером), где он немедленно начал разрабатывать концепцию нового языка программирования. 
+    Менеджмент разработки браузера, включая Тома Пакина, Михаэля Тоя, Рика Шелла, был убеждён, что Netscape должен поддерживать язык программирования,
+    встраиваемый в HTML-код страницы.
+    <br>Помимо Брендана Эйха, в разработке участвовали сооснователь <img src="./img/netscape.png" alt="Netscape" class="netscape" width="200" height="200"> Netscape Communications <em>Марк Андрессен</em> и сооснователь Sun Microsystems <i>Билл Джой</i>: 
+    чтобы успеть закончить работы над языком к релизу браузера, компании заключили соглашение о сотрудничестве в разработке.
+    <br>Они ставили перед собой цель обеспечить <ins>«язык для склеивания»</ins> составляющих частей веб-ресурса: изображений, плагинов, Java-апплетов, 
+    который был бы удобен для веб-дизайнеров и программистов, не обладающих высокой квалификацией.</p>
+    <p>Первоначально язык назывался <strong> Mocha</strong>, затем он был переименован в LiveScript и 
+    предназначался как для программирования на стороне клиента, так и для программирования на стороне сервера (там он должен был называться LiveWire).
+    <br>4 декабря 1995 года LiveScript переименовали в JavaScript, получив соответствующую лицензию у Sun.
+    <p>В 1996 году компания Microsoft выпустила аналог языка <strong> JavaScript</strong>, названный JScript.
+    Анонсирован этот язык был 18 июля 1996 года. Первым браузером, поддерживающим эту реализацию, был Internet Explorer 3.0.</p>
+    <h2><p id="menu2">Краткий обзор языка</p></h2>
+    <p><strong> <a href="https://ru.wikipedia.org/wiki/JavaScript">JavaScript</a></strong> — это кросс-платформенный, объектно-ориентированный скриптовый язык, который добавляет интерактивность и отзывчивость к вашим 
+    веб-страницам.
+    <img src="./img/JV.png" alt="JavaScript" class="jv" width="200" height="200">
+    <br><b>JavaScript</b> позволяет разработчику веб-сайта управлять тем, как ведет себя веб-страница. Это делает JavaScript принципиально отличным от <a href="https://ru.wikipedia.org/wiki/HTML">HTML
+    языка</a> который отвечает за структуру веб-документа, и CSS, языка, который формирует внешний вид веб-страниц.
+    <br>Программы, написанные на языке <b>JavaScript</b>, называются <ins>скриптами</ins>. В браузере они подключаются непосредственно к HTML-документу и, 
+    как только загружается страница – тут же выполняются. Процесс выполнения скрипта называют «интерпретацией».
+    Если PHP скрипт обрабатывается на стороне сервера с помощью PHP интерпретатора, то JavaScript выполняется в браузере пользователя JavaScript 
+    интерпретатором.
+    Сегодня каждый браузер поддерживает JavaScript, тем самым делая его языком веба.</p>
+    <p>В браузере JavaScript может делать всё, что относится к манипуляции с HTML-документом, взаимодействию с посетителем и, с некоторыми ограничениями, 
+    с сервером:</p>
+    <ul style="list-style-type: square;">
+   <li> Проверять правильность заполнения пользовательских HTML-форм.</li>
+    <li>Взаимодействовать с веб-камерой, микрофоном и другими устройствами.</li>
+   <li> Менять стили HTML-элементов, прятать, показывать элементы и т.п.</li>
+   <li> Отображать всплывающие и диалоговые окна.</li>
+    <li>Реагировать на действия посетителя, обрабатывать клики мыши, перемещения курсора и т.п.</li>
+    <li>Посылать запросы на сервер и загружать данные без перезагрузки страницы.</li></ul>
+    <p><ins>JavaScгipt</ins> – невероятно мощный и эффективный язык, который непременно нужно попробовать в деле!
+    <br>Структурно JavaScript можно представить в виде объединения трёх чётко различимых друг от друга частей:</p>
+    <ul class="ul">
+        <li>
+        ядро (ECMAScript),</li>
+        <li>объектная модель браузера (Browser Object Model или BOM (англ.)),</li>
+        <li>объектная модель документа (Document Object Model или DOM).</li></ul></p>
+        <p><a href="#top">Наверх</a></p>
+       <h2><p id="menu3"> <a href=""></a>Серверные приложения</p></h2>
+        <p>Приложения, написанные на JavaScript, могут исполняться на серверах, использующих Java 6 и более поздних версий. Это обстоятельство 
+        используется для построения серверных приложений, позволяющих обрабатывать JavaScript на стороне сервера.
+Помимо Java 6, существует ряд платформ, использующих существующие движки (интерпретаторы) JavaScript для исполнения серверных приложений. 
+(Как правило, речь идёт о повторном использовании движков, ранее созданных для исполнения кода JavaScript в браузерах WWW.)</p>
+<table>
+    <caption><small>Платформы исполнения серверных приложений на JavaScript</small></caption>       
+    <thead> 
+        <td>Название</td> 
+        <td>Используемый движок JavaScript</td>
+        <td>Языки, на которых написан движок и платформа</td> 
+        <td>Лицензия</td>
+        </thead> 
+    <tbody>
+    <tr>
+        <td>Jaxer</td>
+        <td> SpiderMonkey</td>
+        <td>C++, C</td>
+        <td>GPL 3</td>
+    </tr>
+    <tr>
+        <td>persevere-framework</td>
+        <td>Rhino</td>
+        <td>Java</td>
+        <td>Модифицированная лицензия BSD</td>
+    </tr>
+    <tr>
+        <td>Helma</td>
+        <td>Rhino</td>
+        <td>Java, JavaScript</td>
+        <td>BSD-подобная Helma License 2.0</td>
+    </tr>
+    <tr>
+        <td>v8cgi</td>
+        <td>V8</td>
+        <td>C++, JavaScript</td>
+        <td>Лицензия BSD</td>
+    </tr>
+    <tr>
+        <td>node.js</td>
+        <td>V8</td>
+        <td>C++</td>
+        <td>Лицензия MIT</td>
+    </tr>
+    <tr>
+        <td>gopherjs</td>
+        <td>Go</td>
+        <td>Go</td>
+        <td>Лицензия BSD</td> 
+    </tr>
+    <tr>
+        <td colspan="4"></td> 
+    </tr></tbody>
+</table>
+<p><a href="#top">Наверх</a></p>
+    <h2><p id="menu4">Примеры кода</p></h2>
+  <p>Подключение сценариев к html-документу 
+    <br>Сценарии JavaScript бывают встроенные, т.е. их содержимое является частью документа, и внешние, хранящиеся в отдельном файле с расширением .js.
+ <br>Сценарии можно внедрить в html-документ в виде гиперссылки.
+Для этого нужно разместить код в отдельном файле и включить ссылку на файл в заголовок
+<pre class="black"><p class="blue">
+<span class="grey">&lt;</span>head<span class="grey">&gt;</span>
+<span class="grey">&lt;</span>script<span class="grey">&gt;</span><span class="aqua">src=</span><span class="red">"script.js"</span><span class="grey">&gt;&lt;</span>/script<span class="grey">&gt;</span>
+<span class="grey">&lt;</span>/head<span class="grey">&gt;</span></pre>
+<p>или тело страницы.</p>
+<pre class="black"><p class="blue">  
+<span class="grey">&lt;</span>body<span class="grey">&gt;</span>
+<span class="grey">&lt;</span>script<span class="aqua">src=</span><span class="red">"script.js"</span><span class="grey">&gt;&lt;</span>/script<span class="grey">&gt;</span>
+<span class="grey">&lt;</span>/body<span class="grey">&gt;</span></pre></p>
+
+<p>Этот способ обычно применяется для сценариев большого размера или сценариев, многократно используемых на разных веб-страницах.</p>
+
+<p><a href="#top">Наверх</a></p>
+
+<p style="font-style: oblique;">Список использованных тегов
+<ol>
+<li>&lt;!DOCTYPE></li>
+<li>&lt;html></li>
+<li>&lt;meta></li>
+<li>&lt;title></li>
+<li>&lt;link></li>
+<li>&lt;head></li>
+<li>&lt;body></li>
+<li>&lt;p></li>
+<li>&lt;a></li>
+<li>&lt;h1></li>
+<li>&lt;h2></li>
+<li>&lt;ol></li>
+<li>&lt;ul></li>
+<li>&lt;li></li>
+<li>&lt;hr></li>
+<li>&lt;img></li>
+<li>&lt;em></li>
+<li>&lt;br></li>
+<li>&lt;i></li>
+<li>&lt;ins></li>
+<li>&lt;strong></li>
+<li>&lt;b></li>
+<li>&lt;table></li>
+<li>&lt;caption></li>
+<li>&lt;thead></li>
+<li>&lt;td></li>
+<li>&lt;tbody></li>
+<li>&lt;tr></li>
+<li>&lt;span></li>
+<li>&lt;pre></li>
+<li>&lt;small></li>
+</ol></p>
+<p style="font-style: oblique;">Список использованных свойств CSS
+    <ol>
+ <li>list-style-image</li>
+  <li>list-style-position</li>
+  <li>list-style-type</li>
+   <li>font-size</li>
+    <li>font-family</li>
+    <li>@font-face</li>
+     <li>font-weight</li>
+     <li>font-style</li>
+        <li>margin</li>
+            <li>float</li>
+<li>vertical-align</li>
+ <li>border-collaps</li>
+ <li>border-spacing</li>
+<li>color</li>
+ <li>border</li>
+  <li>border-bottom</li>
+  <li>border-right</li>
+<li>border-width</li>
+<li>border-style</li>
+  <li>border-color</li>
+ <li>border-radius</li>
+ <li>background</li>
+ <li>background-color</li>
+<li>text-align</li>
+<li>width</li>
+<li>height</li>
+<li>padding</li>
+ <li>padding-right</li>
+ <li>text-decoration</li>
+ <li>text-indent</li>
+<li>letter-spacing</li>
+<li>word-spacing</li>
+     <li>text-shadow</li>
+  <li>box-shadow</li>
+  <li>caption-side</li>
+  <li>direction</li>
+  <li>text-transform</li>
+  <li>hyphens</li>
+  <li>background-image</li>
+  <li>background-size</li>
+</ol>
+
+</p>
+
+
+</head>
+</body>
+</html>
