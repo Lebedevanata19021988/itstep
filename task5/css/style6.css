@@ -1,0 +1,39 @@
+.out{
+    width: 400px;
+    height: 400px;
+    background: chocolate;
+    position: fixed;
+  left: calc(50% - 200px);
+  top: calc(50% - 200px);
+}
+ 
+    .in1 {width: 100px;
+        height: 100px;
+        background: rgb(224, 153, 153);
+        margin-left: -100px;
+        margin-top: -100px;
+        position: relative; color: black; text-align: center; line-height: 100px;
+    }
+    .in2 {width: 100px;
+        height: 100px;
+        background: rgb(224, 153, 153);
+        margin-top: -100px;
+        margin-left: +400px;
+        position: relative; color: black; text-align: center; line-height: 100px;
+     
+    }
+    .in3 {width: 100px;
+        height: 100px;
+        background: rgb(224, 153, 153);
+        margin-left: +400px;
+        margin-top: +400px;
+        
+        position: relative; color: black; text-align: center; line-height: 100px;
+     
+    }
+    .in4 {width: 100px;
+        height: 100px;
+        background: rgb(224, 153, 153);
+        margin-top: -100px;
+        margin-left: -100px;
+        position: relative; color: black; text-align: center; line-height: 100px
