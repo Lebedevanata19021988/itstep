@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 .out{
     width: 400px;
@@ -34,3 +35,40 @@
     bottom: 0px;
     left: 300px;
 }
+=======
+.out {
+    width: 400px;
+    height: 400px;
+    background: cadetblue;
+    top: calc(50% - 200px);
+    left: calc(50% - 200px);
+    position: fixed;}
+    .in1 {width: 100px;
+        height: 100px;
+        background: rgb(224, 153, 153);
+        top: calc(50% - 200px);
+        left: calc(50% - 200px);
+        position: fixed; color: black; text-align: center; line-height: 100px;
+    }
+    .in2 {width: 100px;
+        height: 100px;
+        background: rgb(224, 153, 153);
+        top: calc(50% - 200px);
+        left: calc(50% + 100px);
+        position: fixed; color: black; text-align: center; line-height: 100px
+    }
+    .in3 {width: 100px;
+        height: 100px;
+        background: rgb(224, 153, 153);
+        bottom: calc(50% - 200px);
+        left: calc(50% + 100px);
+        position: fixed; color: black; text-align: center; line-height: 100px
+    }
+    .in4 {width: 100px;
+        height: 100px;
+        background: rgb(224, 153, 153);
+        bottom: calc(50% - 200px);
+        left: calc(50% - 200px);
+        position: fixed; color: black; text-align: center; line-height: 100px
+    }
+>>>>>>> aa5a4d1c44d7ba52030b3728a5964a76dbf1e9b1
