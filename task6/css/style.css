@@ -1,0 +1,11 @@
+.main {
+    border: 1px solid #000;
+    width: 400px; height: 400px;
+}
+.head { background: cadetblue; color: black; line-height: 100px; text-align: center;}
+.head-item { border: 1px solid #000;}
+.content { border: 1px solid #000;}
+.block1 .bl-top .bl-border { border: 1px solid #000;}
+.block2 { border: 1px solid #000;}
+.block3 { border: 1px solid #000;}
+.block4 { border: 1px solid #000;}
