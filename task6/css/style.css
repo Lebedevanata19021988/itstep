@@ -1,11 +1,36 @@
 .main {
-    border: 1px solid #000;
     width: 400px; height: 400px;
+    position: absolute;
+    float: left;
+    top: calc(50% - 200px);
+    left: calc(50% - 200px); color: black; font-size: 20px;
+    text-align: center; 
 }
-.head { background: cadetblue; color: black; line-height: 100px; text-align: center;}
-.head-item { border: 1px solid #000;}
-.content { border: 1px solid #000;}
-.block1 .bl-top .bl-border { border: 1px solid #000;}
-.block2 { border: 1px solid #000;}
-.block3 { border: 1px solid #000;}
-.block4 { border: 1px solid #000;}
+.head {line-height: 100px; position: relative;
+    float: left;}
+
+.head-item { background: cadetblue; line-height: 100px; position: relative;
+    float: left; width: 100px; height: 100px;}
+
+.head-item-r {background: rgb(58, 56, 185); line-height: 100px;  position: relative;
+    float: left; width: 200px; height: 100px;
+    }
+
+.content {line-height: 100px; text-align: center; position: relative;
+float: left;}
+
+.block {position: relative;
+    float: left; height: 300px; width: 100px;
+}
+
+.bl-top {background: rgb(95, 173, 105); position: relative;
+    float: left; width: 100px; height: 200px; line-height: 200px;
+    }
+
+.bl-bottom { background: rgb(228, 151, 202); line-height: 100px;  position: relative;
+    float: left; width: 100px; height: 100px;}
+
+    .element {width: 100px; height: 100px; background: blue; position: relative; float: left;}
+
+    
+.block-r { width: 100px; height: 300px; background: rgb(127, 129, 119); position: relative; float: left; line-height: 300px;}
