@@ -60,7 +60,11 @@ div{
 	width: 100%;
 	border: 15px solid #fff;
 	height: 150px;
+<<<<<<< HEAD
 	background: #f00;
+=======
+	background: #ada5a5;
+>>>>>>> cbd9318e0ebbb356af5a6013b1bd88a4f64d7252
 }
 .block-15{
 	width: 100%;
@@ -91,4 +95,8 @@ div{
 }
 .pull-left-4{
 	margin-left: 33.33333%;
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> cbd9318e0ebbb356af5a6013b1bd88a4f64d7252
