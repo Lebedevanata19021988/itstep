@@ -98,9 +98,24 @@ caption{
 body {background-image: url(../img/fon1.jpg); 
     background-size: cover;}
 
+   .container {
+       position: relative;
+       width: 100%;
+   }
 
+@media (max-width: 575px) {
+    .container{
+        width: 500px;
+      
+    }
+    p, li, table {font-size: 12pt;
+    }
+    
+    .brendan { width: 70px; height: 70px;}
+    .netscape { width: 70px; height: 70px;}
+    .jv { width: 70px; height: 70px;}
 
-
-
-
+    
   
+    
+}
